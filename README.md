@@ -1,6 +1,12 @@
-# Spider for Wechat Official Accounts
+# Spiders
+Python spiders for Wechat Official Accounts, Bing ...
 
-## mp.wexin.qq.com
+## Usage
+```sh
+pip install requirements.txt
+```
+
+### mp.wexin.qq.com
 Based on the reprint feature of logined wechat official accounts.
 
 Refer to [CSDN 爬取微信公众号发布的所有文章（包括阅读数，在看数，点赞数）](https://blog.csdn.net/qq_45722494/article/details/120191233)
@@ -13,18 +19,16 @@ COOKIE = your cookie
 2. get html page
 3. parse html
 
-## sogou_wechat
+### sogou_wechat
 - 使用搜狗提供的微信搜索。
-- 需要填写cookie
-    - 创建 sogou_wechat/.env，并填入
+- 创建 sogou_wechat/.env，并填入 cookie
 ```ini
 COOKIE = 你的cookie
 ```
 
-## bing
+### bing
 - 使用 Bing 提供搜索(偏题了)。
-- 需要填写cookie
-- 创建 bing/.env并填入
+- 创建 bing/.env并填入 cookie
 ```ini
 COOKIE = 你的cookie
 ```
