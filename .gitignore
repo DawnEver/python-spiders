@@ -1,0 +1,7 @@
+.DS_Store
+cookie/
+page/
+url/
+url.txt
+data*.csv
+.env
